@@ -1,0 +1,84 @@
+body {
+    color: #000;
+}
+
+.menu__overlay {
+    background-color: #ff6ac1;
+}
+
+@keyframes parpadeo {
+
+    0%,
+    100% {
+        color: #ff6ac1;
+    }
+
+    50% {
+        color: #fff;
+    }
+}
+
+.aside__user-info {
+    background-color: #ff6ac1;
+}
+
+@keyframes neon-glow {
+
+    0%,
+    100% {
+        box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #b404e0;
+        /* Cambia el color base y el tamaño según tus preferencias */
+    }
+
+    50% {
+        box-shadow: 0 0 10px #fff, 0 0 20px #04B4E0, 0 0 30px #04B4E0, 0 0 40px #04B4E0;
+    }
+}
+
+.user-info__btn {
+    box-shadow: 5px 5px 5px 5px black;
+    animation: neon-glow 2.5s infinite alternate;
+}
+
+.user-info__image {
+    box-shadow: 5px 5px 5px 5px black;
+    animation: neon-glow 2.5s infinite alternate;
+}
+
+.title__color,
+.subtitle__color {
+    color: #ff6ac1;
+}
+
+.personal-info__title {
+    color: #ff6ac1;
+}
+
+.service__real-icon {
+    color: #ff6ac1;
+}
+
+.skills__percentage {
+    background-color: #ff6ac1;
+}
+
+.knowledges_option {
+    background-color: #ff6ac1;
+}
+
+.timeline__divider::before {
+    background-color: #ff6ac1;
+}
+
+.timeline__divider::after {
+    border: 2px solid #ff6ac1;
+    background-color: #ff6ac1;
+}
+
+.review__icon {
+    color: #ff6ac1;
+}
+
+.extra__icon {
+    color: #ff6ac1;
+}

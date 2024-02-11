@@ -1,0 +1,24 @@
+body {
+    color: #000;
+}
+
+.menu__overlay {
+    background-color: #3498db;
+}
+
+@keyframes parpadeo {
+
+    0%,
+    100% {
+        color: #3493db;
+    }
+
+    70% {
+        color: #fff;
+    }
+}
+
+.aside__user-info {
+    background-color: #04B4E0;
+    color: #000;
+}
